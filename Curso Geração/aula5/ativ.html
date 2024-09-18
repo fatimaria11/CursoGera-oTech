@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        background-color: dimgray;
+        padding: 20px;
+        border-radius: 5px;
+
+    }
+</style>
+
+<body>
+    <h1>Formulário de Candidatura</h1>
+    <form action="">
+        <label>Nome:</label>
+        <input type="text" name="nome" id="nome" required>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="cargo">Cargo de Tecnologia:</label>
+        <select id="cargos" name="texto">
+            <option value="">Pessoa desenvolvedora</option>
+        </select>
+        <br><br>
+
+        <label for="genero">Gênero:</label>
+        <label for="genero">Masculino: </label>
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="genero">Feminino: </label>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+        <label for="genero">Outro(a): </label>
+        <input type="radio" name="genero" id="outro" value="outro">
+
+        <br>
+
+        <label for="texto">Fale mais sobre você:</label><br>
+        <textarea style="resize: none;" name="texto" id="texto"></textarea>
+<br><br>
+<div>
+    <br>
+    <input type="submit" value="Enviar">
+</div>
+
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05</title>
+</head>
+<style>
+    tr th,
+    td {
+        border: solid 2px;
+        padding: 5px
+    }
+
+    table {
+        border-collapse: collapse
+    }
+</style>
+
+
+
+<body>
+    <table>
+        <header>
+            <h1>Tabelas</h1>
+
+        </header>
+
+        <caption>Nomes, idades e cidades</caption>
+        <colgroup>
+            <col style="">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>21</td>
+            <td>Fortaleza</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>20</td>
+            <td>Caucaia</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>20</td>
+            <td>Sobral</td>
+        </tr>
+
+    </table>
+    <hr>
+    <table>
+        <colgroup>
+            <col style="background-color: darkgoldenrod;">
+        </colgroup>
+        <caption>Tabela de Medalhas dos Jogos Olímpicos</caption>
+        <tr>
+            <th colspan="2">Equipe</th>
+            <th>Ouro</th>
+            <th>Prata</th>
+            <th>Bronze</th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <td><img src="imagensTabela/noruega.jpg" att="noruega" </td>
+            <td>Noruega</td>
+            <td>16</td>
+            <td>8</td>
+            <td>13</td>
+            <td>37</td>
+        </tr>
+
+        <tr>
+            <td><img src="imagensTabela/roc.jpg" </td>
+            <td>ROC</td>
+            <td>6</td>
+            <td>12</td>
+            <td>14</td>
+            <td>32</td>
+        </tr>
+
+        <tr>
+            <td><img src="imagensTabela/alem.jpg" </td>
+            <td>Alemanha</td>
+            <td>12</td>
+            <td>10</td>
+            <td>5</td>
+            <td>27</td>
+        </tr>
+
+        <tr>
+            <td><img src="imagensTabela/canada.jpg" </td>
+            <td>Canadá</td>
+            <td>4</td>
+            <td>8</td>
+            <td>14</td>
+            <td>26</td>
+        </tr>
+
+        <tr>
+            <td><img src="imagensTabela/EUA.jpg" </td>
+            <td>Estados unidos da America</td>
+            <td>10</td>
+            <td>11</td>
+            <td>30</td>
+            <td>25</td>
+        </tr>
+    </table>
+    <hr>
+    <!--Formulário-->
+    <form>
+
+        <label>Nome:</label>
+        <input type="text" name="nome" id="nome" required>
+        <br><br>
+        <label>Email:</label>
+        <input type="email" name="email" id="email" required>
+        <br><br>
+        <label>senha:</label>
+        <input type="password" name="senha" id="email" required>
+
+        <br><br>
+        <label>Idade:</label>
+        <input type="number" name="" id="idade"  min="0" max="2" required>
+        <br><br>
+<hr>
+<label for="cidade">Cidade pretendida</label>
+<select id="cidades" name="texto">
+<option value="">Selecione uma cidade</option>
+<option value="fortaleza">Fortaleza</option>
+<option value="natal">Natal</option>
+<option value="joao pessoa">Joao Pessoa</option>
+</select>
+
+        <div>
+        <input tyle="submit" value="Enviar">
+        </div>
+    </form>
+
+</body>
+
+</html>

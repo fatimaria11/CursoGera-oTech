@@ -1,0 +1,34 @@
+.titulo{
+color: blueviolet;
+}
+
+
+#receitasPraticas{
+    background-color: aquamarine;
+}
+
+header{
+    background-color:rgb(114, 240, 198);
+    text-align: center;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color:rgb(14, 33, 119);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.artigos{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.jantar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulomain{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.rodape{
+    background-color: blueviolet;
+}
