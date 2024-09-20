@@ -8,8 +8,11 @@ header{
     padding: 50px;
 }
 
+.logo{
+    
+}
+
 input{
-    border-radius: 50px;
 }
 
 a{
@@ -21,11 +24,31 @@ a{
 background-color: white;
 color: black;
 border-radius: 10px;
+
 }
-div{
+.entrada{
     background-color: white;
-    text-align: center;
-    display: 
+    display: flex;
+    width: 200px;
 }
+
+.formulario{
+    display: flex;
+    justify-content: center;
+
+}
+
+.links{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.entrega{
+   
+}
+
+
+
+
 
 

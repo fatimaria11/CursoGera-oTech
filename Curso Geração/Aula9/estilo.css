@@ -1,0 +1,40 @@
+*{
+
+}
+
+.topoHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    background-image: url(imag.jpg);
+    background-size: cover;
+    padding: ;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+.endereco{
+    text-align: center;
+}
+
+.itens{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.paragrafoCard{
+    width: 200px;
+}
+
+.imagemCard{
+    width: 200px;
+}
+
+
+
