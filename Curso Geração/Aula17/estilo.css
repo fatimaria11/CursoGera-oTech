@@ -1,0 +1,21 @@
+*{
+
+}
+
+.shop{
+    text-align: center;
+    background-color: rgb(52, 174, 52);
+    padding: 30px;
+    height: 320px;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.comp{
+    width: 200px;
+    height: auto;
+}
