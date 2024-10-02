@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<script>
+  /*
+  console.log("Olá Mundo!");
+  //confirm('Tudo Certo?')
+
+  
+  alert("olá mundo")
+  alert("olá mundo")
+  alert("olá mundo")
+  alert("olá mundo")
+  alert("olá mundo")
+
+  //alert("olá mundo")
+
+  const pi = 3.1415;
+  let x = "Maria";
+  console.log("Olá " + x);
+
+  console.log(pi);
+
+  let pi_2 = "3.1415";
+
+  console.log(pi_2);
+
+  // Operadores Aritiméticos
+  
+      soma +
+      subtração -
+      multiplicação *
+      divisão /
+      Módulo (Resto da divisão) %
+      incremento ++
+      decremento --
+  
+
+  x = 20;
+  let y = 15;
+
+  let soma = x + y;
+  let sub = x - y;
+  let mult = x * y;
+  let divi = x / y;
+  let mod = x % y;
+
+  console.log("soma = " + soma);
+  console.log("subtração = " + sub);
+  console.log("multiplicação = " + mult);
+  console.log("divisão = " + divi.toFixed(2));
+  console.log("Módulo = " + mod);
+
+  x++;
+  console.log(x);
+
+  y--;
+  console.log(y);
+
+  // Operadores de atribuição e operação
+  
+      soma +=
+      subtração -=
+      multiplicação *=
+      divisão /=
+      Módulo (Resto da divisão) %=
+  
+
+  x += 4; // x = x + 4
+  console.log(x);
+
+  x -= 10; // x = x - 10
+  console.log(x);
+
+  x *= 3; // x = x * 3
+  console.log(x);
+
+  x /= 5; // x = x / 5
+  console.log(x);
+
+  x %= 2; // x = x % 2
+  console.log(x);
+
+  
+    Operadores lógicos - Verdadeiro ou Falso -> bool
+    && - e
+    || - ou
+    ! - not
+
+    === -> identico
+    == -> igual
+    != -> diferente
+    > -> maior
+    < -> menor
+    >= -> maior ou igual
+    <= -> menor ou igual
+
+  
+
+  let a = true;
+  let b = false;
+  let x = 10;
+  let y = 10;
+
+  console.log(a && b);
+  console.log(a || b);
+  console.log(!a && !b);
+
+  console.log(x == y);
+  console.log("diferente " + (x != y));
+  console.log(x > y);
+  console.log(x < y);
+  console.log(x >= y);
+  console.log(x <= y);
+
+  a = parseFloat(prompt("Digite um numero: "));
+  b = parseFloat(prompt("Digite um numero: "));
+
+  let soma = a + b;
+
+  console.log(soma);
+  */
+  /*
+    1. Leia dois números e exiba a soma dos dois
+
+    2. Leia o salário de um funcionário e exiba o novo 
+    salário deste funcionário com um aumento de 20%
+    novoSalario = salario * 1.2
+
+    3. Leia três notas, calcule sua média e exiba para o usuário
+
+    4. Leia o lado do quadrado e calcule sua área.
+
+    5. Leia a base e altura de um triângulo e calcule sua área
+    a = base * altura / 2
+  
+    Se a média for maior ou igual a 7
+    mostre passou, se for menor que 7
+    e maior que 4, mostre recuperação
+    se for menor que 4, mostre reprovou.
+  
+
+  let nota1 = parseFloat(prompt("Digite a nota 1"));
+  let nota2 = parseFloat(prompt("Digite a nota 2"));
+  let nota3 = parseFloat(prompt("Digite a nota 3"));
+
+  let media = (nota1 + nota2 + nota3) / 3;
+  console.log(media.toFixed(2));
+  
+
+  let media = parseFloat(prompt('digite sua nota'))
+
+  if (media >=7)
+  {alert('Aprovado!')}
+  else if (media < 7 && media >= 5)
+  {alert('Recuperação!')}
+  else if (media < 5){
+    alert('Reprovado!')}
+
+//receba dois numeros a e b, verifique se a soma deles é maior que 10
+
+let a = parseInt(prompt('digite um numero'))
+let b = parseInt(prompt('digite um numero'))
+
+if (a + b > 10){
+alert('soma maior que 10')
+} else{
+alert('soma menor ou igual a 10')
+}
+*/
+/*
+//questão 2º
+let peso = parseFloat(prompt('digite seu peso'))
+let altura = parseFloat(prompt('digite sua altura'))
+let imc = peso / (altura*altura)
+
+if (imc < 20){
+alert('abaixo do peso')
+}else if (imc >= 20 && imc < 25){
+alert('peso normal')
+}else if(imc >= 25 && imc < 30){
+alert('sobre peso')
+}else if(imc >= 30  && imc < 40){
+alert('obeso')
+}else if(imc >= 40){
+alert('obeso morbido')
+}
+*/
+
+/*
+  //questão 3º
+  let saldo = parseFloat(prompt('digite seu saldo'))
+  if (saldo <= 500) {
+    alert('nenhum crédito')
+  } else if (saldo > 500 && saldo <= 1000) {
+    alert('seu saldo é: '+ saldo * 0.3)
+  }else if (saldo >=1001 && saldo <= 3000){
+    alert('seu saldo é ' + saldo * 0.4)
+  } else if (saldo > 3000){
+    alert('seu saldo é: ' + saldo * 0.5)
+  }
+*/
+
+/*
+let prato = parseInt(
+  prompt('Digite seu prato:\n1- Vegetariano \n2- Frango\n3- Peixe\n4- Carne'))
+let caloria = 0
+
+if (prato == 1){
+  caloria += 200
+}else if (prato == 2){
+  caloria += 200
+}else if (prato == 3){
+  caloria += 300
+}else if (prato == 4){
+  caloria += 350
+}
+
+let sobremesa = parseInt(prompt('Digite sua sobremesa:\n1- Abacaxi \n2- Sorvete diet\n3- Mouse diet\n4- Mouse de chocolate'))
+
+if (sobremesa == 1){
+  caloria += 20
+}else if (sobremesa == 2){
+  caloria += 70
+}else if (sobremesa == 3){
+  caloria += 100
+}else if (sobremesa == 4){
+  caloria += 65
+}
+
+let bebidas = parseInt(prompt('Digite sua bebida:\n1- Chá\n2- Suco de caju\n3- Suco de caja\n4- Suco de abacaxi'))
+
+if (bebidas == 1){
+  caloria += 400
+}else if (bebidas == 2){
+  caloria += 400
+}else if (bebidas == 3){
+  caloria += 300
+}else if (bebidas == 4){
+  caloria += 300}
+
+alert('sua caloria: ' + caloria)
+*/
+
+/*
+let dia = parseInt(prompt('Digite um número: '))
+
+if (dia == 1){
+  alert('domingo')
+}else if (dia == 2){
+  alert('segunda')
+}else if (dia == 3){
+  alert('terça')
+}else if (dia == 4){
+  alert('quarta')
+}else if (dia == 5){
+  alert('quinta')
+}else if (dia == 6){
+  alert('sexta')
+}else if (dia == 7){
+  alert('sábado')
+}else if (dia > 7){
+  alert('NAO EXISTE')
+}
+*/
+
+let senha = 'lobo'
+let senhaDigitada = prompt('digite a senha:')
+
+for(var i = 1; i <= 3; i++){
+  if(senha == senhaDigitada){
+    alert('senha correta')
+    break
+  }else{
+    alert('senha incorreta')
+    senhaDigitada = prompt('digite sua senha')
+  }
+}
+
+if (i == 3 && senha != senhaDigitada) {
+  alert("senha bloqueada");
+}else{
+  alert('senha correta')
+}
+
+
+
+</script>
+
+<body></body>
+
+</html>
