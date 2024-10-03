@@ -1,21 +1,75 @@
-*{
+* {}
 
-}
-
-.shop{
+.shop {
     text-align: center;
-    background-color: rgb(52, 174, 52);
+    background-color: rgb(12, 117, 90);
     padding: 30px;
     height: 320px;
     color: white;
 }
 
-.logo{
+.logo {
     width: 100px;
     height: auto;
 }
 
-.comp{
+.comp {
     width: 200px;
     height: auto;
+}
+
+.rodape {
+    text-align: center;
+    color: rgb(12, 117, 90);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.img1 {
+    width: 70px;
+
+}
+
+.img2 {
+    width: 50px;
+}
+
+.img3 {
+    width: 50px;
+}
+
+.logos {
+    text-align: center;
+}
+
+.centro {
+    text-align: center;
+}
+
+.nome {
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: rgb(203, 198, 198);
+}
+
+.click {
+    background-color: #04AA6D;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+
+ 
+
+}
+
+main{
+    text-align: center;
 }
