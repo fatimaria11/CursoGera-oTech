@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input id="ola" type="text" placeholder="Digite olá" onclick="troca">
+    <br>
+    <input id="mundo" type="text" placeholder="Digite mundo" onclick="troca">
+    <br>
+    <button>TROCAR</button>
+    
+</body>
+<script>
+    
+
+let input1 = document.getElementById('ola')
+let input2 = document.getElementById('mundo')
+let auxiliar = 0
+
+auxiliar = input1.value
+input1.value = input2.value     
+input2.value = auxiliar
+
+function trocaNome(){
+    onclick="troca"
+}
+
+</script>
+</html>

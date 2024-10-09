@@ -70,11 +70,14 @@
         let par = []
         let impar = []
         for (let i = 0; i <= 10; i++) {
-            numero = prompt('digite seu numero')
+            numero = parseInt(prompt('digite seu numero'))
             if (numero % 2 == 0) {
+                par[i] = numero
             } else if (numero % 2 == 1) {
+                impar[i] = (numero)
             }
         }
+        
     </script>
 </head>
 
