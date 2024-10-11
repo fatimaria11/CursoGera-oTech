@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""></form>
+        <input type="text" id="modelo" placeholder="modelo"><br>
+        <input type="text" id="portas" placeholder="portas"><br>
+        <input type="text" id="cor" placeholder="cor"><br>
+        <input type="text" id="imagem" placeholder="imagem"><br>
+        <button type="button" onclick="cadastrar()">Cadastrar</button>
+       
+ 
+    </form>
+</body>
+<script>
+        let cadastro = [];
+
+function cadastrar() {
+    let modelo = document.getElementById('modelo').value;
+    let portas = document.getElementById('portas').value;
+    let cor = document.getElementById('cor').value;
+    let imagem = document.getElementById('imagem').value;
+
+    let carro = {
+        modelo: modelo,
+        portas: portas,
+        cor: cor,
+        imagem: imagem
+    };
+
+    cadastro.push(carro);
+    console.log(cadastro[0].modelo);
+}
+
+</script>
+</html>
