@@ -1,0 +1,25 @@
+*{
+
+}
+
+.colecoes{
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+
+.supreme{
+    background-color: rgba(196, 168, 90, 0.455);
+    border-radius: 10px;
+}
+
+.adidas{
+    background-color: rgba(196, 168, 90, 0.455);
+    border-radius: 10px;
+}
+
+.bass{
+    background-color: rgba(196, 168, 90, 0.455);
+    border-radius: 10px;
+}
